@@ -28,7 +28,11 @@ const app = new App({
 
                              let n=f.name
                              let a=f.age
-                        say(n+"\n"+a+<img src="https://avatars.slack-edge.com/2022-09-01/4024855487332_3f1442500bfe51a9131c_512.png"/>)
+                             let e=f.email
+                             let b=f.batch
+                             let c=f.course
+                             let at=f.attendance
+                        say("name: "+n+"\n"+"age: "+a+"\n"+"email: "+e+"\n"+"batch: "+b+"\n"+"course: "+c+"\n"+"attendance: "+at)
                         }
                         else{
                             say("please enter valid student id")
@@ -42,6 +46,40 @@ const app = new App({
       console.error(error);
     }
 });
+
+app.message(':wave:', async ({ message, say }) => {
+  await say(`Hello, <@${message.user}>`);
+});
+
+app.message(/^(hi|hello|hey).*/, async ({ context,message, say }) => {
+  console.log('message:', message)
+  const greeting = context.matches[0];
+
+  await say(`${greeting},<@${message.user}> how are you?`);
+});
+
+
+let currentDate = new Date();
+
+let time = Math.floor((currentDate.setHours(13,18,30))/1000)
+
+const whenSeptemberEnds = time;
+
+app.message('wake me up', async ({ message, client, logger }) => {
+  
+  try {
+    
+    const result = await client.chat.scheduleMessage({
+      channel: message.channel,
+      post_at: whenSeptemberEnds,
+      text: 'uth ja bhai'
+    });
+  }
+  catch (error) {
+    logger.error(error);
+  }
+});
+
 
 (async () => {
   const port = 3000
