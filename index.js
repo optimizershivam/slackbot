@@ -17,7 +17,7 @@ app.command("/data", async ({ command, ack, say }) => {
       say(txt + "please enter student id");
     } else {
       const getdata = async () => {
-        let r = await axios.get("http://localhost:8080/student");
+        let r = await axios.get("https://agile-ridge-08957.herokuapp.com/");
         let d = r.data;
 
         const result = d.filter((item) => item.id == txt);
