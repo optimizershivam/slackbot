@@ -25,12 +25,14 @@ app.command("/data", async ({ command, ack, say }) => {
           let f = result[0];
 
           let n = f.name;
-          // let a = f.age;
           let e = f.email;
           let b = f.batch;
           let c = f.course;
           let at = f.attendance;
           let img = f.image;
+          let csbt = f.marks[0].csbt;
+          let nem = f.marks[1].nem;
+          let dsa = f.marks[2].dsa;
           say({
             blocks: [
               {
@@ -67,7 +69,7 @@ app.command("/data", async ({ command, ack, say }) => {
                 // ],
                 text: {
                   type: "mrkdwn",
-                  text: `*Email:* ${e} \n*Batch:* ${b} \n*Course:* ${c} \n*Attendance:* ${at} `,
+                  text: `*Email:* ${e} \n*Batch:* ${b} \n*Course:* ${c} \n*Attendance:* ${at} \n*CSBT Score:* ${csbt} \n*NEM Score:* ${nem} \n*DSA Score:* ${dsa} `,
                 },
                 accessory: {
                   type: "image",
