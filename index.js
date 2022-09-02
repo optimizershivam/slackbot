@@ -30,6 +30,7 @@ app.command("/data", async ({ command, ack, say }) => {
           let b = f.batch;
           let c = f.course;
           let at = f.attendance;
+          let img = f.image;
           say({
             blocks: [
               {
@@ -42,39 +43,52 @@ app.command("/data", async ({ command, ack, say }) => {
               },
               {
                 type: "section",
-                fields: [
-                  {
-                    type: "plain_text",
-                    text: `Email: ${e}`,
-                    emoji: true,
-                  },
-                  {
-                    type: "plain_text",
-                    text: `Batch: ${b}`,
-                    emoji: true,
-                  },
-                  {
-                    type: "plain_text",
-                    text: `Course: ${c}`,
-                    emoji: true,
-                  },
-                  {
-                    type: "plain_text",
-                    text: `Attendance: ${at}`,
-                    emoji: true,
-                  },
-                ],
+                // fields: [
+                //   {
+                //     type: "mrkdwn",
+                //     text: `*Email:* ${e}`,
+                //     emoji: true,
+                //   },
+                //   {
+                //     type: "mrkdwn",
+                //     text: `*Batch:* ${b}`,
+                //     emoji: true,
+                //   },
+                //   {
+                //     type: "mrkdwn",
+                //     text: `*Course:* ${c}`,
+                //     emoji: true,
+                //   },
+                //   {
+                //     type: "mrkdwn",
+                //     text: `*Attendance:* ${at}`,
+                //     emoji: true,
+                //   },
+                // ],
+                text: {
+                  type: "mrkdwn",
+                  text: `*Email:* ${e} \n*Batch:* ${b} \n*Course:* ${c} \n*Attendance:* ${at} `,
+                },
                 accessory: {
                   type: "image",
-                  image_url:
-                    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.clipartkey.com%2Fmpngs%2Fm%2F5-59143_classroom-class-clipart-at-free-for-personal-use.png&f=1&nofb=1",
-                  alt_text: "cute cat",
+                  image_url: img,
+                  alt_text: "student image",
                 },
               },
             ],
           });
         } else {
-          say("please enter valid student id");
+          say({
+            blocks: [
+              {
+                type: "section",
+                text: {
+                  type: "mrkdwn",
+                  text: "*Please enter valid student Id*",
+                },
+              },
+            ],
+          });
         }
       };
       getdata();
