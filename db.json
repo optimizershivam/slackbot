@@ -1,7 +1,31 @@
 {
-    "student":[
-        {"name":"shivam","age":21,"id":"fw17_0011","email":"shivam@gmail.com","attendance":"80%","batch":"web17","course":"NEM111"},
-        {"name":"suhani","age":27,"id":"fw15_451","email":"suhani@gmail.com","attendance":"87%","batch":"web15","course":"NEM111"},
-        {"name":"krunal","age":24,"id":"fw17_0091","email":"krunal@gmail.com","attendance":"70%","batch":"web17","course":"NEM111"}
-    ]
+  "student": [
+    {
+      "name": "Shivam",
+      "age": 21,
+      "id": "fw17_0011",
+      "email": "shivam@gmail.com",
+      "attendance": "80%",
+      "batch": "web17",
+      "course": "NEM-111"
+    },
+    {
+      "name": "Suhani Sandhu",
+      "age": 27,
+      "id": "fw15_451",
+      "email": "suhani@gmail.com",
+      "attendance": "87%",
+      "batch": "web15",
+      "course": "NEM-111"
+    },
+    {
+      "name": "Krunal Bhandekar",
+      "age": 24,
+      "id": "fw17_0091",
+      "email": "krunal@gmail.com",
+      "attendance": "70%",
+      "batch": "web17",
+      "course": "NEM-111"
+    }
+  ]
 }

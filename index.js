@@ -25,30 +25,54 @@ app.command("/data", async ({ command, ack, say }) => {
           let f = result[0];
 
           let n = f.name;
-          let a = f.age;
+          // let a = f.age;
           let e = f.email;
           let b = f.batch;
           let c = f.course;
           let at = f.attendance;
-          await say(
-            "name: " +
-              n +
-              "\n" +
-              "age: " +
-              a +
-              "\n" +
-              "email: " +
-              e +
-              "\n" +
-              "batch: " +
-              b +
-              "\n" +
-              "course: " +
-              c +
-              "\n" +
-              "attendance: " +
-              at
-          );
+          say({
+            blocks: [
+              {
+                type: "header",
+                text: {
+                  type: "plain_text",
+                  text: `Name: ${n}`,
+                  emoji: true,
+                },
+              },
+              {
+                type: "section",
+                fields: [
+                  {
+                    type: "plain_text",
+                    text: `Email: ${e}`,
+                    emoji: true,
+                  },
+                  {
+                    type: "plain_text",
+                    text: `Batch: ${b}`,
+                    emoji: true,
+                  },
+                  {
+                    type: "plain_text",
+                    text: `Course: ${c}`,
+                    emoji: true,
+                  },
+                  {
+                    type: "plain_text",
+                    text: `Attendance: ${at}`,
+                    emoji: true,
+                  },
+                ],
+                accessory: {
+                  type: "image",
+                  image_url:
+                    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.clipartkey.com%2Fmpngs%2Fm%2F5-59143_classroom-class-clipart-at-free-for-personal-use.png&f=1&nofb=1",
+                  alt_text: "cute cat",
+                },
+              },
+            ],
+          });
         } else {
           say("please enter valid student id");
         }
