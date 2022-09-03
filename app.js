@@ -45,28 +45,6 @@ app.command("/data", async ({ command, ack, say }) => {
               },
               {
                 type: "section",
-                // fields: [
-                //   {
-                //     type: "mrkdwn",
-                //     text: `*Email:* ${e}`,
-                //     emoji: true,
-                //   },
-                //   {
-                //     type: "mrkdwn",
-                //     text: `*Batch:* ${b}`,
-                //     emoji: true,
-                //   },
-                //   {
-                //     type: "mrkdwn",
-                //     text: `*Course:* ${c}`,
-                //     emoji: true,
-                //   },
-                //   {
-                //     type: "mrkdwn",
-                //     text: `*Attendance:* ${at}`,
-                //     emoji: true,
-                //   },
-                // ],
                 text: {
                   type: "mrkdwn",
                   text: `*Email:* ${e} \n*Batch:* ${b} \n*Course:* ${c} \n*Attendance:* ${at} \n*CSBT Score:* ${csbt} \n*NEM Score:* ${nem} \n*DSA Score:* ${dsa} `,
