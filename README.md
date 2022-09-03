@@ -133,9 +133,9 @@ This project is the result of Hardwork and Dedication by the Team Members.
 
 ## Team Members and Contributors :
 
-### 1]Shivam 
-### 2]Krunal Bhanderkar
-### 3]Suhani Sandhu
+  ### <a href="https://www.linkedin.com/in/itsurshivam/">Shivam</a>
+### <a href="https://www.linkedin.com/in/krunal-bhandekar/">Krunal Bhandekar</a>
+### <a href="https://www.linkedin.com/in/itsurshivam/">Suhani Sandhu</a>
 
 
 
