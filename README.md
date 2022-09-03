@@ -135,7 +135,7 @@ This project is the result of Hardwork and Dedication by the Team Members.
 
   ### <a href="https://www.linkedin.com/in/itsurshivam/">Shivam</a>
 ### <a href="https://www.linkedin.com/in/krunal-bhandekar/">Krunal Bhandekar</a>
-### <a href="https://www.linkedin.com/in/itsurshivam/">Suhani Sandhu</a>
+### <a href="https://www.linkedin.com/in/suhani-sandhu-887b94238/">Suhani Sandhu</a>
 
 
 
