@@ -1,7 +1,7 @@
 
 <h1 align="center">#  SlackBot 🤖 Create Slack bots in Node js with ease</h1> 
 
-![Toggle track app cover](https://i.postimg.cc/ZYdLD4sY/homepage.png)
+![Slackbot app cover](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4230).png)
 
 
 <h2 align="center">Slackbot to automate the work of studemts or admin of masai school with smooth and clean user flow.</h2>    
@@ -24,7 +24,7 @@
 
 
 
-<h3 align="center"><a href="https://toggletrack.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href=""><strong>Want to see live preview »</strong></a></h3>
 
 <p align="center"> 
     <br />&#10023;
@@ -41,18 +41,12 @@
 - respond with hi/hello/hey to know your slack user id  -----> send this keywords our bot will ask how are you along with you name ?
 
 
-# <h2>Home Page : </h2>
-![HomePage](https://i.postimg.cc/Kzwhcxtv/h1.png)
-# <h2>SignUp Page : </h2>
-![SignUp Page](https://i.postimg.cc/jj21DBxW/signup.png)
-# <h2>Login In / Login Page : </h2>
-![LogIn Page](https://i.postimg.cc/hv1sy04W/errorlogin.png)
-# <h2>Pricing Page : </h2>
-![Pricing Page](https://i.postimg.cc/Jn5KPWQ4/pppp.png)
-# <h2>Timer Page : </h2>
-![Timer Page](https://i.postimg.cc/4xq610vH/timer.png)
-# <h2>Project Page : </h2>
-![Project Page](https://i.postimg.cc/26Krq4NY/projectd.png)
+# <h2>Screenshots of our Slackbot: </h2>
+![DemoPage](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4231).png)
+![DemoPage](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4232).png)
+![Demopage](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4233).png)
+
+
 
 ## Getting Started
 
