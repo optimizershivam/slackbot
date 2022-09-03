@@ -24,7 +24,7 @@
 
 
 
-<h3 align="center"><a href=""><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://app.slack.com/client/T04074N4DJT/D041125L0BT"><strong>Want to see live preview »</strong></a></h3>
 
 <p align="center"> 
     <br />&#10023;
