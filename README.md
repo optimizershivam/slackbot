@@ -1,12 +1,12 @@
 
 <h1 align="center">#  SlackBot 🤖 Create Slack bots in Node js with ease</h1> 
 
-<img src="https://s1.gifyu.com/images/slackBot-Trim.gif" alt="slackBot-Trim.gif" border="0" />
-
-![Slackbot app cover](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4230).png)
+<img src="https://github.com/optimizershivam/slackbot/blob/master/assets/slackBot-Trim.gif" alt="slackBot-Trim.gif" border="0" />
 
 
-<h2 align="center">Slackbot to automate the work of studemts or admin of masai school with smooth and clean user flow.</h2>    
+
+
+<h2 align="center">Slackbot to automate the work of students or admin of masai school with smooth and clean user flow.</h2>    
 
 <br />
 <p align="center">
@@ -44,6 +44,7 @@
 
 
 # <h2>Screenshots of our Slackbot: </h2>
+![Slackbot app cover](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4230).png)
 ![DemoPage](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4231).png)
 ![DemoPage](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4232).png)
 ![Demopage](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4233).png)
