@@ -107,7 +107,7 @@ npm install
 To run the application, run the following command:
 
 ```
-npm node app.js
+npm run start
 ```
 
 
