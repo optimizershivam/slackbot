@@ -143,10 +143,7 @@ This project is the result of Hardwork and Dedication by the Team Members.
 
 
 ## Links :
-# <h3>Deployment Link   :  </h3>
-# <h3>Github Link       : https://github.com/optimizershivam/slackbot </h3>
-# <h3>Presentation Link :  </h3>
-
+# <h3>Github Link : https://github.com/optimizershivam/slackbot </h3>
 
 ## Contact
 
