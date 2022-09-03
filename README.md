@@ -1,6 +1,8 @@
 
 <h1 align="center">#  SlackBot 🤖 Create Slack bots in Node js with ease</h1> 
 
+<a href="https://gifyu.com/image/Swnj7"><img src="https://s1.gifyu.com/images/slackBot-Trim.gif" alt="slackBot-Trim.gif" border="0" /></a>
+
 ![Slackbot app cover](https://github.com/optimizershivam/slackbot/blob/master/assets/Screenshot%20(4230).png)
 
 
